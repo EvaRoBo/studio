@@ -1,0 +1,36 @@
+.flexslider{ 
+   margin-left: 60px;
+}
+
+.flexslider h2{ 
+   font-family: 'Work Sans', sans-serif;
+}
+
+.slides img{
+	width: 300px;
+    height: 300px;
+    display: inline-block;
+    position: relative;
+}
+
+@media only screen and (max-width: 768px) {
+  
+       .slides img{
+			width: 100%;
+    		height: 100%;  		
+    }
+  
+}
+
+/* Safari 7.1+ */
+
+_::-webkit-full-page-media, _:future, :root .safari_only {
+
+  .slides img{
+	width: 300px;
+    height: 300px;
+    display: inline-block;
+    position: relative;
+}
+
+}
